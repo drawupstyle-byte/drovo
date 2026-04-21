@@ -1,2 +1,1 @@
-# No changes needed - PowerPoint file is a source document
-# Office documents like .pptx should not be ignored as they are source files
+Nothing should be ignored in this case, as the only change is adding a PowerPoint presentation file (.pptx), which is a source document that should be tracked in version control.
