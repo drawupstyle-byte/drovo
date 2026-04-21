@@ -1,1 +1,22 @@
-Nothing should be ignored in this case. The added files are a Python source file and a PowerPoint presentation file, both of which are legitimate project files that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# PowerPoint files
+*.pptx
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
